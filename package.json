@@ -1,5 +1,5 @@
 {
-  "name": "strong-pwd-generator",
+  "name": "latest-strong-pwd-generator",
   "version": "1.7.1",
   "description": "Easy library for generating unique passwords.",
   "main": "main.js",
