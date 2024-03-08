@@ -1,0 +1,36 @@
+{
+  "name": "strong-pwd-generator",
+  "version": "1.7.1",
+  "description": "Easy library for generating unique passwords.",
+  "main": "main.js",
+  "exports": {
+    "types": "./src/generate.d.ts",
+    "default": "./main.js"
+  },
+  "types": "src/generate.d.ts",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "sh ./test/coverage.sh",
+    "lint": "./node_modules/.bin/eslint src test main.js example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aadycoral/strong-pwd-generator.git"
+  },
+  "keywords": [
+    "generate",
+    "password",
+    "generator",
+    "unique"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^1.10.0",
+    "codecov": "^3.8.3",
+    "eslint": "^6.5.1",
+    "jscover": "^0.1.1",
+    "mocha": "^7.0.0",
+    "mocha-lcov-reporter": "^1.2.0",
+    "underscore": "^1.7.0"
+  }
+}
